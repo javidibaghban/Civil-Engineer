@@ -1,4 +1,3 @@
-
 ##Civil-Engineer
 The website for the **civil-engineering** 
 
@@ -9,7 +8,7 @@ The website for the **civil-engineering**
 
 * Check our project's source with
 ```
-    git clone https://github.com/1schools-projects/8behesht.git
+    git clone https://github.com/1schools-projects/Civil-Engineer.git
 ```
 
 ###Buliding Technologies
