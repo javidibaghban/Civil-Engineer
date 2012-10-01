@@ -1,0 +1,81 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	
+}
+
+div.bg{
+	background-image:url('images/bg_page_1.jpg');
+	position:fixed;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	background-size:cover;
+	background-position:center top;
+	background-repeat:no-repeat;
+	z-index:-1;	
+	}
+
+div.container{
+	width: 980px;
+	margin: 0 auto;
+	min-height:600px;
+}
+
+div.menu{
+	margin-top:200px;
+	margin-right:-45px;
+		
+}
+div.menu ul{
+	float:right;
+	list-style-type:none;
+	direction:rtl;
+	
+}
+div.menu li{
+	width  : 15px;
+	height : 15px;
+	cursor : pointer;
+	margin-top: 15px;
+	border-radius:10px;
+	background-color:#C7C7C7;
+	-webkit-transition:all 1100ms;
+	
+}
+div.menu ul li a{
+	display:none;
+	text-decoration: none;
+	width: 300px;
+	white-space:nowrap;
+ 	font-size: 18px;
+	font-family: 'yekan';
+	color:#EBEBEB;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 2px #ccc;
+	letter-spacing: 1px;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+	height:32px;
+	
+}
+
+div.menu li:hover {
+	background-color:#313131;
+}
+
+div.menu li:hover a{
+	display:block;
+	background-image:url('images/navside_bg.png');	
+	background-repeat:no-repeat;
+	padding-right:50px;
+	-webkit-transition:all 1100ms;
+}
+
