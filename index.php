@@ -7,9 +7,15 @@
 <link rel="stylesheet" type="text/css" href="style.css" />
 <script type="text/javascript" src="zepto.js"></script>
 <script type="text/javascript" src="civil.js" ></script>
+<script type="text/javascript">
+window.onload=function(){
+	document.body.className='';
+}
+</script>
 </head>
 
-<body>
+<body class="preload">
+<div class="box"></div>
 
 <div class="container">
 	<div class="menu">

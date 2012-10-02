@@ -7,6 +7,12 @@ body{
 	
 }
 
+body.preload div.box{
+	-webkit-transform:rotate(200deg) scale(0.5,0.5) translate(400px);
+	background-image:url('images/ani_preload_home.gif');
+	background-repeat:no-repeat;	
+}
+
 div.bg{
 	background-image:url('images/bg_page_1.jpg');
 	position:fixed;
